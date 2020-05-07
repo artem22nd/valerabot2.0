@@ -212,5 +212,5 @@ async def help( ctx, amount = 1 ):
 
 # Connect
 
-token = os.environ.get("token")
-client.run( token )
+token = os.environ.get("tokenvalera")
+client.run(str( token ))
